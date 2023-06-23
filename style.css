@@ -1,0 +1,238 @@
+/* font-family: 'Patrick Hand', cursive;
+font-family: 'Yellowtail', cursive; 
+font-family: 'Saira Condensed', sans-serif; */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 30px;
+  padding-top: 8px;
+  box-sizing: content-box;
+}
+
+.delicious {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  height: 15px;
+}
+
+nav img {
+  margin: 1px;
+}
+
+#pinterest {
+  padding-right: 3px;
+}
+
+#logotext {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+h2 {
+  font-family: "Yellowtail", cursive;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 8px;
+}
+
+.divider img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#print {
+  justify-content: end;
+  align-items: baseline;
+  align-self: baseline;
+}
+
+.print {
+  display: flex;
+  gap: 3px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.03rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 9px;
+  color: rgb(154, 154, 154);
+  margin-bottom: 15px;
+  letter-spacing: 0.02rem;
+}
+
+#chocopizza {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+p {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11px;
+  text-indent: 20px;
+  margin: 20px;
+  line-height: 1.4;
+}
+
+.body-text {
+  width: 100%;
+}
+
+.list-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+  padding-bottom: 15px;
+}
+
+#list {
+  width: 100%;
+}
+
+.double-list {
+  color: rgb(123, 123, 123);
+  line-height: 1.4;
+  font-size: 14px;
+  position: absolute;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 10px;
+}
+
+#checkbox {
+  margin-right: 5px;
+}
+
+#strikethrough {
+  text-decoration: line-through;
+}
+
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(154, 154, 154);
+  max-width: 250px;
+  justify-content: start;
+}
+
+h6 {
+  font-weight: 400;
+  color: black;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 0.05rem;
+}
+
+#vanessa {
+  height: 50px;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: row;
+}
+
+#bio {
+  padding-left: 10px;
+  margin: 0;
+  text-indent: 0px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: rgb(201, 119, 90);
+  color: white;
+  height: 40px;
+  font-family: "Saira Condensed", sans-serif;
+  padding: 0 20px;
+  border: none;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-line {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#small-logo {
+  position: absolute;
+  height: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-container p {
+  margin: 0px;
+  color: rgb(185, 185, 185);
+  font-size: 10px;
+}
