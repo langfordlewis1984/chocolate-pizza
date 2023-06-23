@@ -169,14 +169,14 @@ p {
   font-family: "Times New Roman", Times, serif;
   color: rgb(154, 154, 154);
   max-width: 250px;
-  justify-content: start;
+  justify-content: baseline;
 }
 
 h6 {
   font-weight: 400;
   color: black;
   padding-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   letter-spacing: 0.05rem;
 }
 
@@ -199,7 +199,7 @@ h6 {
 button {
   background-color: rgb(201, 119, 90);
   color: white;
-  height: 40px;
+  height: 30px;
   font-family: "Saira Condensed", sans-serif;
   padding: 0 20px;
   border: none;
